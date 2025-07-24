@@ -65,6 +65,4 @@ This exercise demonstrates:
 - How to use pivot tables to summarize data effectively without duplicates.
 - Useful aggregations such as **Sum**, **Count**, and **Min** in practical business scenarios.
 
-You can use this template as part of your data analysis portfolio or Excel automation showcase.
-
 ---
