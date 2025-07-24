@@ -30,7 +30,7 @@ We drag the `InvoiceNo` field into the **Rows** section. This gives us a list of
 - We drag `Quantity` into the **Values** section → summarized as **Sum of Quantity**.
 - Additionally, we drag `StockCode` into the Values section and set it to **Count**, showing how many individual items were purchased on each invoice.
 
-📷 ![Pivot Table 3](screenshots/pivot_table_3.png)
+📷 ![Pivot Table 3](screenshots/pivot_table_10.png)
 
 ---
 
@@ -38,7 +38,7 @@ We drag the `InvoiceNo` field into the **Rows** section. This gives us a list of
 
 Using a calculated `Revenue` column in the dataset (e.g., `Quantity × UnitPrice`), we summarize it with **Sum of Revenue** to find total sales per invoice.
 
-📷 ![Pivot Table 4](screenshots/pivot_table_4.png)
+📷 ![Pivot Table 4](screenshots/pivot_table_7.png)
 
 ---
 
@@ -46,23 +46,15 @@ Using a calculated `Revenue` column in the dataset (e.g., `Quantity × UnitPrice
 
 By dragging `CustomerID` to the **Rows** section, we list each customer uniquely.
 
-📷 ![Pivot Table 5](screenshots/pivot_table_5.png)
+📷 ![Pivot Table 5](screenshots/pivot_table_9.png)
 
 ---
 
-## 6️⃣ Total Revenue per Customer
-
-We add `Revenue` to the Values section again (Sum), showing how much each customer has spent in total.
-
-📷 ![Pivot Table 6](screenshots/pivot_table_6.png)
-
----
-
-## 7️⃣ First Purchase Date per Customer
+## 7️ First Purchase Date per Customer
 
 To find the **first purchase date** for each customer, we drag `InvoiceDate` to the Values section and summarize by **Min**. This tells us the date of their first transaction.
 
-📷 ![Pivot Table 7](screenshots/pivot_table_7.png)
+📷 ![Pivot Table 7](screenshots/pivot_table_12.png)
 
 ---
 
